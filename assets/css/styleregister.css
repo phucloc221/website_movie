@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+  }
+  body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: url(https://reviewphim.net/wp-content/uploads/2021/03/thumb-800x450-6.jpg);
+  }
+  .container{
+    max-width: 550px;
+    width: 80%;
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(28, 215, 221, 0.15);
+    background: linear-gradient(135deg,#f04e4e, #7024e9);
+  }
+  .container .title{
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    font-weight: 600;
+  }
+  .content form .user-detail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+  form .user-detail .input-detail{
+    width: 40%;
+    height: 55px;
+    margin-left:30px;
+    margin-right:-10px;
+  }
+ 
+  form .input-detail span.detail{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 3px;
+    margin-top: -5px;
+  }
+  .user-detail input{
+    height: 30px;
+  }
+  form .category{
+    display: flex;
+    width: 25%;
+    margin: 0px 14px ;
+    justify-content: space-between;
+  }
+  form .gender-detail{
+    margin-left:6%;
+    display:flex;
+  }
+  form .gender-detail .gender-title{
+    font-weight: 600;
+  }
+  form .button{
+    display:flex;
+    margin: 15px 0px;
+  }
+  form .button input{
+    font-size: 100%;
+  }
+  form .button .submit{
+    margin: 0px 100px;
+  }
+  form .button .reset{
+    margin: 0px 50px;
+  }
+
